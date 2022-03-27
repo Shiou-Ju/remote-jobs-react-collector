@@ -29,7 +29,7 @@ export const JobItem = ({ job }) => {
         )}
         {remoteType && (
           <li>
-            遠端形態<i className="fas fa-envelope-open"></i> {remoteType}
+            遠端形態：<i className="fas fa-envelope-open"></i> {remoteType}
           </li>
         )}
         {dateUpdated && (
